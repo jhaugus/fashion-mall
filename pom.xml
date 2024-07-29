@@ -15,7 +15,7 @@
         <module>fasionmall-coupon</module>
         <module>fasionmall-order</module>
         <module>fasionmall-ware</module>
-
+        <module>renren-fast-master</module>
     </modules>
 
 </project>
