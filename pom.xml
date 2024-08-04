@@ -3,19 +3,22 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.augus.fasion</groupId>
-    <artifactId>fasionmall</artifactId>
+    <artifactId>fashion-mall</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>fasionmall</name>
+    <name>fashion-mall</name>
     <description>聚合服务</description>
     <packaging>pom</packaging>
 
     <modules>
-        <module>fasionmall-product</module>
-        <module>fasionmall-member</module>
-        <module>fasionmall-coupon</module>
-        <module>fasionmall-order</module>
-        <module>fasionmall-ware</module>
-        <module>renren-fast-master</module>
+        <module>fashionmall-product</module>
+        <module>fashionmall-member</module>
+        <module>fashionmall-coupon</module>
+        <module>fashionmall-order</module>
+        <module>fashionmall-ware</module>
+        <module>renren-fast</module>
+        <module>renren-generator</module>
+        <module>fashionmall-common</module>
+        <module>common</module>
     </modules>
 
 </project>

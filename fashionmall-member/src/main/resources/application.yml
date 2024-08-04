@@ -1,0 +1,18 @@
+server:
+  port: 8000
+# mysql
+spring:
+  datasource:
+    #MySQL配置
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://124.223.66.160:3306/gulimall_ums?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
+    username: root
+    password: root
+mybatis-plus:
+  mapperLocations: classpath:mapper/**/*.xml
+  global-config:
+    df-config:
+      id-type: auto
+
+
+

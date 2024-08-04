@@ -150,7 +150,6 @@ CREATE TABLE sms_home_subject
 
 ALTER TABLE sms_home_subject COMMENT '首页专题表';
 
-【jd首页下面很多专题，每个专题链?有碌囊趁妫故咀ㄌ馍唐沸畔ⅰ?;
 
 /*==============================================================*/
 /* Table: sms_home_subject_spu                                  */
