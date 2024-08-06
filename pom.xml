@@ -15,10 +15,10 @@
         <module>fashionmall-coupon</module>
         <module>fashionmall-order</module>
         <module>fashionmall-ware</module>
+
         <module>renren-fast</module>
         <module>renren-generator</module>
         <module>fashionmall-common</module>
-        <module>common</module>
     </modules>
 
 </project>

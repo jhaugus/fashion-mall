@@ -1,18 +1,24 @@
-server:
-  port: 7000
-# mysql
-spring:
-  datasource:
-    #MySQL配置
-    driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://124.223.66.160:3306/gulimall_sms?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
-    username: root
-    password: root
-mybatis-plus:
-  mapperLocations: classpath:mapper/**/*.xml
-  global-config:
-    df-config:
-      id-type: auto
-
-
-
+#server:
+#  port: 7000
+## mysql
+#spring:
+#  datasource:
+#    #MySQL配置
+#    driverClassName: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://124.223.66.160:3306/gulimall_sms?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
+#    username: root
+#    password: root
+#  cloud:
+#    nacos:
+#      discovery:
+#        server-addr: 127.0.0.1:8848
+#  application:
+#    name: fashion-mall-coupon
+#mybatis-plus:
+#  mapperLocations: classpath:mapper/**/*.xml
+#  global-config:
+#    df-config:
+#      id-type: auto
+#
+#
+#
